@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TD-Ameritrade-Bot" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TD-Ameritrade-Bot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DCURL_STATICLIB" />
+					<Add directory="D:/Freelancer/Ameritrade/TD-Ameritrade-Bot/include" />
+					<Add directory="C:/curl/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add library="C:/curl/lib/libcurl.a" />
+					<Add library="C:/curl/lib/libnghttp2.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TD-Ameritrade-Bot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="D:/Freelancer/Ameritrade/TD-Ameritrade-Bot/include" />
+			<Add directory="C:/curl/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+			<Add library="C:/curl/lib/libcurl.dll.a" />
+		</Linker>
+		<Unit filename="include/TDA.h" />
+		<Unit filename="include/account.cpp" />
+		<Unit filename="include/account.h" />
+		<Unit filename="include/oauth.cpp" />
+		<Unit filename="include/oauth.h" />
+		<Unit filename="include/rest.cpp" />
+		<Unit filename="include/rest.h" />
+		<Unit filename="src/TDA.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

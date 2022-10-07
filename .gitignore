@@ -1,0 +1,6 @@
+#Ignore include and lib directories
+include/
+lib/
+#Ignore refresh_token.tok and user.json file
+refresh_token.tok
+user.json
