@@ -1,0 +1,915 @@
+# depslib dependency file v1.0
+1660929478 source:d:\freelancer\ameritrade\td-ameritrade-bot\src\main.cpp
+	<iostream>
+	<fstream>
+	<chrono>
+	<thread>
+	<stdlib.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"rapidjson/document.h"
+	"rapidjson/filereadstream.h"
+	"TDA.h"
+	"account.h"
+
+1660771578 d:\freelancer\ameritrade\td-ameritrade-bot\include\tda.h
+	"account.h"
+
+1450228626 c:\program files\curl\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1450228626 c:\program files\curl\include\curl\curlver.h
+
+1450228626 c:\program files\curl\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1450228626 c:\program files\curl\include\curl\curlrules.h
+
+1450228626 c:\program files\curl\include\curl\easy.h
+
+1450228626 c:\program files\curl\include\curl\multi.h
+	"curl.h"
+
+1450228626 c:\program files\curl\include\curl\typecheck-gcc.h
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\json.hpp
+	<algorithm>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<nlohmann/adl_serializer.hpp>
+	<nlohmann/byte_container_with_subtype.hpp>
+	<nlohmann/detail/conversions/from_json.hpp>
+	<nlohmann/detail/conversions/to_json.hpp>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/hash.hpp>
+	<nlohmann/detail/input/binary_reader.hpp>
+	<nlohmann/detail/input/input_adapters.hpp>
+	<nlohmann/detail/input/lexer.hpp>
+	<nlohmann/detail/input/parser.hpp>
+	<nlohmann/detail/iterators/internal_iterator.hpp>
+	<nlohmann/detail/iterators/iter_impl.hpp>
+	<nlohmann/detail/iterators/iteration_proxy.hpp>
+	<nlohmann/detail/iterators/json_reverse_iterator.hpp>
+	<nlohmann/detail/iterators/primitive_iterator.hpp>
+	<nlohmann/detail/json_pointer.hpp>
+	<nlohmann/detail/json_ref.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/string_concat.hpp>
+	<nlohmann/detail/string_escape.hpp>
+	<nlohmann/detail/meta/cpp_future.hpp>
+	<nlohmann/detail/meta/type_traits.hpp>
+	<nlohmann/detail/output/binary_writer.hpp>
+	<nlohmann/detail/output/output_adapters.hpp>
+	<nlohmann/detail/output/serializer.hpp>
+	<nlohmann/detail/value_t.hpp>
+	<nlohmann/json_fwd.hpp>
+	<nlohmann/ordered_map.hpp>
+	<any>
+	<string_view>
+	<nlohmann/detail/macro_unscope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\adl_serializer.hpp
+	<type_traits>
+	<utility>
+	<nlohmann/detail/conversions/from_json.hpp>
+	<nlohmann/detail/conversions/to_json.hpp>
+	<nlohmann/detail/meta/identity_tag.hpp>
+	<nlohmann/detail/meta/type_traits.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\conversions\from_json.hpp
+	<algorithm>
+	<array>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta/cpp_future.hpp>
+	<nlohmann/detail/meta/identity_tag.hpp>
+	<nlohmann/detail/meta/type_traits.hpp>
+	<nlohmann/detail/string_concat.hpp>
+	<nlohmann/detail/value_t.hpp>
+	<experimental/filesystem>
+	<filesystem>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\exceptions.hpp
+	<cstddef>
+	<exception>
+	<stdexcept>
+	<string>
+	<vector>
+	<nlohmann/detail/value_t.hpp>
+	<nlohmann/detail/string_escape.hpp>
+	<nlohmann/detail/input/position_t.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta/cpp_future.hpp>
+	<nlohmann/detail/meta/type_traits.hpp>
+	<nlohmann/detail/string_concat.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\value_t.hpp
+	<array>
+	<cstddef>
+	<cstdint>
+	<string>
+	<nlohmann/detail/macro_scope.hpp>
+	<compare>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\macro_scope.hpp
+	<utility>
+	<nlohmann/thirdparty/hedley/hedley.hpp>
+	<nlohmann/detail/meta/detected.hpp>
+	<version>
+	<cstdlib>
+	<cassert>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\thirdparty\hedley\hedley.hpp
+	<stdint.h>
+	<stdint.h>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\meta\detected.hpp
+	<type_traits>
+	<nlohmann/detail/meta/void_t.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\meta\void_t.hpp
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\string_escape.hpp
+	<nlohmann/detail/macro_scope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\input\position_t.hpp
+	<cstddef>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\meta\cpp_future.hpp
+	<cstddef>
+	<type_traits>
+	<utility>
+	<nlohmann/detail/macro_scope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\meta\type_traits.hpp
+	<limits>
+	<type_traits>
+	<utility>
+	<tuple>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/iterators/iterator_traits.hpp>
+	<nlohmann/detail/meta/call_std/begin.hpp>
+	<nlohmann/detail/meta/call_std/end.hpp>
+	<nlohmann/detail/meta/cpp_future.hpp>
+	<nlohmann/detail/meta/detected.hpp>
+	<nlohmann/json_fwd.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\iterators\iterator_traits.hpp
+	<iterator>
+	<nlohmann/detail/meta/void_t.hpp>
+	<nlohmann/detail/meta/cpp_future.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\meta\call_std\begin.hpp
+	<nlohmann/detail/macro_scope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\meta\call_std\end.hpp
+	<nlohmann/detail/macro_scope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\json_fwd.hpp
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\string_concat.hpp
+	<cstring>
+	<string>
+	<utility>
+	<nlohmann/detail/meta/cpp_future.hpp>
+	<nlohmann/detail/meta/detected.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\meta\identity_tag.hpp
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\conversions\to_json.hpp
+	<algorithm>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/iterators/iteration_proxy.hpp>
+	<nlohmann/detail/meta/cpp_future.hpp>
+	<nlohmann/detail/meta/type_traits.hpp>
+	<nlohmann/detail/value_t.hpp>
+	<experimental/filesystem>
+	<filesystem>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\iterators\iteration_proxy.hpp
+	<cstddef>
+	<iterator>
+	<string>
+	<tuple>
+	<utility>
+	<ranges>
+	<nlohmann/detail/meta/type_traits.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\byte_container_with_subtype.hpp
+	<cstdint>
+	<tuple>
+	<utility>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\hash.hpp
+	<cstdint>
+	<cstddef>
+	<functional>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\input\binary_reader.hpp
+	<algorithm>
+	<array>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<map>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/input/input_adapters.hpp>
+	<nlohmann/detail/input/json_sax.hpp>
+	<nlohmann/detail/input/lexer.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta/is_sax.hpp>
+	<nlohmann/detail/meta/type_traits.hpp>
+	<nlohmann/detail/string_concat.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\input\input_adapters.hpp
+	<array>
+	<cstddef>
+	<cstring>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<istream>
+	<nlohmann/detail/iterators/iterator_traits.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\input\json_sax.hpp
+	<cstddef>
+	<string>
+	<utility>
+	<vector>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/string_concat.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\input\lexer.hpp
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<nlohmann/detail/input/input_adapters.hpp>
+	<nlohmann/detail/input/position_t.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\meta\is_sax.hpp
+	<cstdint>
+	<utility>
+	<string>
+	<nlohmann/detail/meta/detected.hpp>
+	<nlohmann/detail/meta/type_traits.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\input\parser.hpp
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/input/input_adapters.hpp>
+	<nlohmann/detail/input/json_sax.hpp>
+	<nlohmann/detail/input/lexer.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta/is_sax.hpp>
+	<nlohmann/detail/string_concat.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\iterators\internal_iterator.hpp
+	<nlohmann/detail/iterators/primitive_iterator.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\iterators\primitive_iterator.hpp
+	<cstddef>
+	<limits>
+	<nlohmann/detail/macro_scope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\iterators\iter_impl.hpp
+	<iterator>
+	<type_traits>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/iterators/internal_iterator.hpp>
+	<nlohmann/detail/iterators/primitive_iterator.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta/cpp_future.hpp>
+	<nlohmann/detail/meta/type_traits.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\iterators\json_reverse_iterator.hpp
+	<cstddef>
+	<iterator>
+	<utility>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\json_pointer.hpp
+	<algorithm>
+	<cctype>
+	<cerrno>
+	<cstdlib>
+	<limits>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/string_concat.hpp>
+	<nlohmann/detail/string_escape.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\json_ref.hpp
+	<initializer_list>
+	<utility>
+	<nlohmann/detail/meta/type_traits.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\output\binary_writer.hpp
+	<algorithm>
+	<array>
+	<map>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<nlohmann/detail/input/binary_reader.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/output/output_adapters.hpp>
+	<nlohmann/detail/string_concat.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\output\output_adapters.hpp
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<memory>
+	<string>
+	<vector>
+	<ios>
+	<ostream>
+	<nlohmann/detail/macro_scope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\output\serializer.hpp
+	<algorithm>
+	<array>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<iomanip>
+	<type_traits>
+	<utility>
+	<nlohmann/detail/conversions/to_chars.hpp>
+	<nlohmann/detail/exceptions.hpp>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta/cpp_future.hpp>
+	<nlohmann/detail/output/binary_writer.hpp>
+	<nlohmann/detail/output/output_adapters.hpp>
+	<nlohmann/detail/string_concat.hpp>
+	<nlohmann/detail/value_t.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\conversions\to_chars.hpp
+	<array>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<nlohmann/detail/macro_scope.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\ordered_map.hpp
+	<functional>
+	<initializer_list>
+	<iterator>
+	<memory>
+	<stdexcept>
+	<type_traits>
+	<utility>
+	<vector>
+	<nlohmann/detail/macro_scope.hpp>
+	<nlohmann/detail/meta/type_traits.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\detail\macro_unscope.hpp
+	<nlohmann/thirdparty/hedley/hedley_undef.hpp>
+
+1658413679 d:\freelancer\ameritrade\td-ameritrade-bot\include\nlohmann\thirdparty\hedley\hedley_undef.hpp
+
+1661196262 source:d:\freelancer\ameritrade\td-ameritrade-bot\src\tda.cpp
+	"TDA.h"
+	<conio.h>
+	<iostream>
+	"rapidjson/document.h"
+	<thread>
+	<cstdlib>
+	<algorithm>
+
+1382864259 d:\freelancer\ameritrade\td-ameritrade-bot\include\stringutils.hpp
+	<string>
+
+1660143326 source:d:\freelancer\ameritrade\td-ameritrade-bot\include\oauth.cpp
+	"oauth.h"
+	"iostream"
+	<fstream>
+	<algorithm>
+
+1660143269 d:\freelancer\ameritrade\td-ameritrade-bot\include\oauth.h
+	<string>
+	<ctime>
+	<memory>
+	"rapidjson/document.h"
+	"rest.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\document.h
+	"reader.h"
+	"internal/meta.h"
+	"internal/strfunc.h"
+	"memorystream.h"
+	"encodedstream.h"
+	<new>
+	<limits>
+	<compare>
+	<iterator>
+	<map>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\reader.h
+	"allocators.h"
+	"stream.h"
+	"encodedstream.h"
+	"internal/clzll.h"
+	"internal/meta.h"
+	"internal/stack.h"
+	"internal/strtod.h"
+	<limits>
+	<intrin.h>
+	<nmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<stdexcept>
+	"rapidjson/error/error.h"
+	"rapidjson/reader.h"
+	"error/error.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\allocators.h
+	"rapidjson.h"
+	"internal/meta.h"
+	<memory>
+	<type_traits>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\rapidjson.h
+	<cstdlib>
+	<cstring>
+	"rapidjson/..."
+	<string>
+	"msinttypes/stdint.h"
+	"msinttypes/inttypes.h"
+	<stdint.h>
+	<inttypes.h>
+	<endian.h>
+	"rapidjson/..."
+	<cassert>
+	<utility>
+	<cassert>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\msinttypes\stdint.h
+	<stdint.h>
+	<limits.h>
+	<wchar.h>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\msinttypes\inttypes.h
+	"stdint.h"
+	<inttypes.h>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\meta.h
+	"../rapidjson.h"
+	<type_traits>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\stream.h
+	"rapidjson.h"
+	"encodings.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\encodings.h
+	"rapidjson.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\encodedstream.h
+	"stream.h"
+	"memorystream.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\memorystream.h
+	"stream.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\clzll.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\stack.h
+	"../allocators.h"
+	"swap.h"
+	<cstddef>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\swap.h
+	"../rapidjson.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\strtod.h
+	"ieee754.h"
+	"biginteger.h"
+	"diyfp.h"
+	"pow10.h"
+	<climits>
+	<limits>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\ieee754.h
+	"../rapidjson.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\biginteger.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\diyfp.h
+	"../rapidjson.h"
+	"clzll.h"
+	<limits>
+	<intrin.h>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\pow10.h
+	"../rapidjson.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\error\error.h
+	"../rapidjson.h"
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\internal\strfunc.h
+	"../stream.h"
+	<cwchar>
+
+1660164067 d:\freelancer\ameritrade\td-ameritrade-bot\include\rest.h
+	<mutex>
+	<string>
+
+1661196149 source:d:\freelancer\ameritrade\td-ameritrade-bot\include\account.cpp
+	"account.h"
+	<iomanip>
+	<sstream>
+	<iostream>
+
+1661195899 d:\freelancer\ameritrade\td-ameritrade-bot\include\account.h
+	<memory>
+	<vector>
+	"oauth.h"
+	"rest.h"
+	"rapidjson/document.h"
+
+1660413014 source:d:\freelancer\ameritrade\td-ameritrade-bot\include\rest.cpp
+	"rest.h"
+	<curl/curl.h>
+
+1653357793 d:\freelancer\ameritrade\td-ameritrade-bot\include\rapidjson\filereadstream.h
+	"stream.h"
+	<cstdio>
+
+1660080076 source:d:\freelancer\ameritrade\td-ameritrade-bot\include\stock.cpp
+	"stock.h"
+	<iomanip>
+	<sstream>
+	<ctime>
+
+1660112119 d:\freelancer\ameritrade\td-ameritrade-bot\include\stock.h
+	<memory>
+	<vector>
+	"oauth.h"
+	"rest.h"
+	"rapidjson/document.h"
+
+1652046740 d:\freelancer\ameritrade\td-ameritrade-bot\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"header.h"
+	"typecheck-gcc.h"
+
+1652213920 d:\freelancer\ameritrade\td-ameritrade-bot\include\curl\curlver.h
+
+1652046740 d:\freelancer\ameritrade\td-ameritrade-bot\include\curl\system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1652046740 d:\freelancer\ameritrade\td-ameritrade-bot\include\curl\easy.h
+
+1652046740 d:\freelancer\ameritrade\td-ameritrade-bot\include\curl\multi.h
+	"curl.h"
+
+1652046740 d:\freelancer\ameritrade\td-ameritrade-bot\include\curl\urlapi.h
+	"curl.h"
+
+1652046740 d:\freelancer\ameritrade\td-ameritrade-bot\include\curl\options.h
+
+1652051010 d:\freelancer\ameritrade\td-ameritrade-bot\include\curl\header.h
+
+1652046740 d:\freelancer\ameritrade\td-ameritrade-bot\include\curl\typecheck-gcc.h
+
+1665012000 c:\curl\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"header.h"
+	"websockets.h"
+	"typecheck-gcc.h"
+
+1666728798 c:\curl\include\curl\curlver.h
+
+1665012000 c:\curl\include\curl\system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1665012000 c:\curl\include\curl\easy.h
+
+1665012000 c:\curl\include\curl\multi.h
+	"curl.h"
+
+1665012000 c:\curl\include\curl\urlapi.h
+	"curl.h"
+
+1665012000 c:\curl\include\curl\options.h
+
+1665012000 c:\curl\include\curl\header.h
+
+1665012000 c:\curl\include\curl\typecheck-gcc.h
+
+1667795590 source:d:\td-ameritrade-bot\include\account.cpp
+	"account.h"
+	<iomanip>
+	<sstream>
+	<iostream>
+
+1667796059 d:\td-ameritrade-bot\include\account.h
+	<memory>
+	<vector>
+	"oauth.h"
+	"rest.h"
+	"rapidjson/document.h"
+
+1660143269 d:\td-ameritrade-bot\include\oauth.h
+	<string>
+	<ctime>
+	<memory>
+	"rapidjson/document.h"
+	"rest.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\document.h
+	"reader.h"
+	"internal/meta.h"
+	"internal/strfunc.h"
+	"memorystream.h"
+	"encodedstream.h"
+	<new>
+	<limits>
+	<compare>
+	<iterator>
+	<map>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\reader.h
+	"allocators.h"
+	"stream.h"
+	"encodedstream.h"
+	"internal/clzll.h"
+	"internal/meta.h"
+	"internal/stack.h"
+	"internal/strtod.h"
+	<limits>
+	<intrin.h>
+	<nmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<stdexcept>
+	"rapidjson/error/error.h"
+	"rapidjson/reader.h"
+	"error/error.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\allocators.h
+	"rapidjson.h"
+	"internal/meta.h"
+	<memory>
+	<type_traits>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\rapidjson.h
+	<cstdlib>
+	<cstring>
+	"rapidjson/..."
+	<string>
+	"msinttypes/stdint.h"
+	"msinttypes/inttypes.h"
+	<stdint.h>
+	<inttypes.h>
+	<endian.h>
+	"rapidjson/..."
+	<cassert>
+	<utility>
+	<cassert>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\msinttypes\stdint.h
+	<stdint.h>
+	<limits.h>
+	<wchar.h>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\msinttypes\inttypes.h
+	"stdint.h"
+	<inttypes.h>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\meta.h
+	"../rapidjson.h"
+	<type_traits>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\stream.h
+	"rapidjson.h"
+	"encodings.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\encodings.h
+	"rapidjson.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\encodedstream.h
+	"stream.h"
+	"memorystream.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\memorystream.h
+	"stream.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\clzll.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\stack.h
+	"../allocators.h"
+	"swap.h"
+	<cstddef>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\swap.h
+	"../rapidjson.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\strtod.h
+	"ieee754.h"
+	"biginteger.h"
+	"diyfp.h"
+	"pow10.h"
+	<climits>
+	<limits>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\ieee754.h
+	"../rapidjson.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\biginteger.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\diyfp.h
+	"../rapidjson.h"
+	"clzll.h"
+	<limits>
+	<intrin.h>
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\pow10.h
+	"../rapidjson.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\error\error.h
+	"../rapidjson.h"
+
+1653357793 d:\td-ameritrade-bot\include\rapidjson\internal\strfunc.h
+	"../stream.h"
+	<cwchar>
+
+1660164067 d:\td-ameritrade-bot\include\rest.h
+	<mutex>
+	<string>
+
+1660143326 source:d:\td-ameritrade-bot\include\oauth.cpp
+	"oauth.h"
+	"iostream"
+	<fstream>
+	<algorithm>
+
+1660413014 source:d:\td-ameritrade-bot\include\rest.cpp
+	"rest.h"
+	<curl/curl.h>
+
+1665922888 c:\curl\include\curl\websockets.h
+
+1667715142 source:d:\td-ameritrade-bot\src\tda.cpp
+	"TDA.h"
+	<conio.h>
+	<iostream>
+	"rapidjson/document.h"
+	<thread>
+	<cstdlib>
+	<algorithm>
+
+1667702405 source:d:\td-ameritrade-bot\src\main.cpp
+	<iostream>
+	<fstream>
+	<chrono>
+	<thread>
+	<stdlib.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"rapidjson/document.h"
+	"rapidjson/filereadstream.h"
+	"TDA.h"
+	"account.h"
+
